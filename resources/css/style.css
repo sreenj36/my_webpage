@@ -7,5 +7,9 @@
 html {
     background-color: #fff;
     color: #484747;
-    font-family: 'Manjari', 'Arial';
+    font-family: 'Manjari', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
 }
