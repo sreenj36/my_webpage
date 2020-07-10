@@ -42,3 +42,10 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
 }
+
+.scrolling-text {
+    color: #e81313;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
