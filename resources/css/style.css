@@ -61,7 +61,7 @@ h1 {
 
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited {
     background-color: #d35400;
     border: 1px solid #d35400;
     color: #fff;
@@ -70,10 +70,10 @@ h1 {
 }
 
 .btn-ghost:link,
-btn-ghost:visited{
+.btn-ghost:visited {
     background-color: #d35400;
     border: 1px solid #d35400;
-    color: #f70404;
+    color: #fff;
 }
 
 .btn:hover,
@@ -82,12 +82,12 @@ btn-ghost:visited{
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active {
     border: 1px solid #d35400;
 
 }
 .btn-ghost:hover,
-btn-ghost:active{
+.btn-ghost:active {
     border: 1px solid #d35400;
     color: #ffffff;
 }
@@ -112,4 +112,38 @@ header {
     transform: translate(-50%,-50%);
 }
 
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
 
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #d35400;
+    
+}
