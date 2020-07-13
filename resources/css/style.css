@@ -88,6 +88,7 @@ h2:after {
     width: 70%;
     margin-left: 20%;
     text-align: justify;
+    word-spacing: 2px;
     
     
 }
@@ -96,8 +97,8 @@ h2:after {
 .box p {
     font-size: 95%;
     line-height: 145%;
-    
-     
+    word-spacing: 2px;
+    text-align: justify-all;
     
 }
 
