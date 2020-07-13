@@ -87,12 +87,17 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 20%;
+    text-align: justify;
+    
     
 }
+
 
 .box p {
     font-size: 95%;
     line-height: 145%;
+    
+     
     
 }
 
