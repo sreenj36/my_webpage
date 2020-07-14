@@ -61,6 +61,7 @@ h2 {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    text-align: center;
     
 }
 h2:after {
@@ -97,9 +98,9 @@ h2:after {
 .box p {
     font-size: 90%;
     line-height: 145%;
-    #word-spacing: 2px;
+    #word-spacing: 1px;
     text-align: center;
-    
+    #letter-spacing: 1px;
 }
 
 /* --------icons------- */
@@ -116,7 +117,9 @@ h2:after {
     font-size: 350%;
     display: block;
     color: #ff6c10;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    
 }
 
 
