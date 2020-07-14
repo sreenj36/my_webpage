@@ -86,19 +86,19 @@ h2:after {
 .edu-cont {
     line-height: 145%;
     width: 70%;
-    margin-left: 20%;
+    margin-left: 18%;
     text-align: justify;
-    word-spacing: 2px;
+    #word-spacing: 2px;
     
     
 }
 
 
 .box p {
-    font-size: 95%;
+    font-size: 90%;
     line-height: 145%;
-    word-spacing: 2px;
-    text-align: justify-all;
+    #word-spacing: 2px;
+    text-align: justify;
     
 }
 
@@ -108,8 +108,9 @@ h2:after {
     font-size: 500%;
     display: block;
     color: #ff0076;
-    margin-bottom: 10p;
+    margin-top: 0px;
     float: left;
+    margin-left:1%; 
 }
 .icon-ed {
     font-size: 350%;
@@ -219,7 +220,15 @@ header {
     
 }
 
- /* The alert message box */
+/* section-features */
+.section-features .edu-cont {
+    margin-bottom: 30px;
+}
+
+
+
+
+/* The alert message box */
 .alert {
   padding: 20px;
   background-color: #4cf436; /* green */
@@ -249,6 +258,10 @@ header {
 /* GALLARY /*
 /* ------------------------------------------ */
 
+.section-gallery {
+    padding: 0;
+}
+
 .gallary-showcase {
     list-style: none;
     width: 100%;
@@ -263,10 +276,19 @@ header {
 .gallary-pic {
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 .gallary-pic img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
     
+}
+.gallary-pic img:hover {
+    transform: scale(1.05);
+    opacity: 1;
 }
 
