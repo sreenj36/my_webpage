@@ -70,7 +70,8 @@
          display: block;
         border: 0;
         padding: 10px 0;
-        font-size: 100%;
+        font-size: 95%;
+        line-height: 10px; /* line space between sticky navigation */
     }
     
 
