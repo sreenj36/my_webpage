@@ -8,13 +8,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #484747;
     font-family: 'Manjari', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
     
 }
 /* ------------------------------------------ */
@@ -73,6 +75,7 @@ h2:after {
     margin: 0 auto;
     margin-top: 25px;
 }
+/*
 .scrolling-text {
     color: #f1c40f;
     font-size: 30px;
@@ -83,6 +86,7 @@ h2:after {
     
     
 }
+*/
 /* --------paragraph------- */
 .edu-cont {
     line-height: 145%;
@@ -206,7 +210,7 @@ header {
 }
 
 .logo {
-    height: 120px;
+    height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -256,13 +260,14 @@ header {
 
 
 /* The alert message box */
-.alert {
+/*.alert {
   padding: 20px;
-  background-color: #4cf436; /* green */
+  background-color: #4cf436; 
   color: black;
   margin-bottom: 0px;
     
 }
+*/
 
 /* The close button */
 .closebtn {
@@ -436,6 +441,7 @@ footer {
 .social-links {
     list-style: none;
     float: right;
+    
     
 }
 .footer-nav li,
