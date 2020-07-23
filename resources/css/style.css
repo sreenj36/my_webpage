@@ -119,6 +119,18 @@ h2:after {
     color: #ff6c10;
     margin-bottom: 0px;
     text-align: center;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: rgba(232, 9, 9, 0.8);
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
     
 }
 
@@ -198,11 +210,13 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    
 }
 
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    
 }
 
 .main-nav li a:link, 
@@ -294,4 +308,27 @@ header {
     transform: scale(1.05);
     opacity: 1;
 }
+
+/* ------------------------------------------ */
+/* MINISTERS /*
+/* ------------------------------------------ */
+.box img {
+    width: 100%;
+    height: 275px;
+    margin-bottom: 15px;
+}
+
+.minister-features {
+    margin-bottom: 5px;
+    
+}
+.ministers {
+    background-color: rgba(239, 11, 11, 0.62);
+    }
+.ministers h2 {
+    margin-bottom: 0px;
+}
+
+
+
 
