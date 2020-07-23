@@ -137,7 +137,8 @@ h2:after {
 
 /* --------BUTTONS------- */
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 400;
@@ -148,7 +149,8 @@ h2:after {
 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited, 
+input[type=submit] {
     background-color: #d35400;
     border: 1px solid #d35400;
     color: #fff;
@@ -164,12 +166,15 @@ h2:after {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #b14600;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active, 
+input[type=submit] {
     border: 1px solid #d35400;
 
 }
@@ -382,6 +387,34 @@ cite img {
 .ministers h2 {
     margin-bottom: 0px;
 }
+
+/* ------------------------------------------ */
+/* CONTACT FORM /*
+/* ------------------------------------------ */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0px;
+}
+
+*:focus {outline: none;}
+    
+
 
 
 
