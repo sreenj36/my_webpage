@@ -65,6 +65,14 @@
         
         margin-top: -7%;
     }
+    
+    /* added for minister image resize  */ 
+    .box img {
+    width: 82%;
+    height: 283px;
+    margin-bottom: 46px;
+    }
+   
 
     
 }
