@@ -1,9 +1,9 @@
-
-@media only screen and (orientation:portrait){
+/*
+@media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
 }
-@media only screen and (orientation:landscape){
+@media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
 }
