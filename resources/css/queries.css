@@ -11,7 +11,22 @@
 }
     .row {
         padding: 0 2%; } 
+
+
+
+@media only screen and (orientation:portrait){
+  #turn{ display:block; }
+  #container{ display:none; }
 }
+@media only screen and (orientation:landscape){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+
+
+}
+
+
  
 
 
@@ -102,6 +117,8 @@
     height: 283px;
     margin-bottom: 46px;
     }
+    
+    /* disable landscape mode*/
    @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
