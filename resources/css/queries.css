@@ -13,8 +13,11 @@
         padding: 0 2%; } 
 
 
-
-@media only screen and (orientation:landscape){
+.scrolling-text {
+    font-size: 30px;
+    }
+    
+    @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
 }
@@ -22,12 +25,8 @@
   #turn{ display:none; }
   #container{ display:block; }
 }
-
-
+    
 }
-
-
- 
 
 
 
@@ -53,9 +52,16 @@
     
     .logo { margin-top: -5px; }
     
+
+
+/*
+.alert {
+    font-size: 14px;
+} */
+.scrolling-text {
+    font-size: 14px;
+    }
 }
-
-
 
 
 /* small phones to small tablets from 481-767px*/
@@ -84,9 +90,9 @@
     .main-nav li a:visited {
          display: block;
         border: 0;
-        padding: 10px 0;
-        font-size: 95%;
-        line-height: 10px; /* line space between sticky navigation */
+        padding: 9px 0;
+        font-size: 90%;
+        line-height: 5px;
     }
     
 
@@ -117,6 +123,21 @@
     height: 283px;
     margin-bottom: 46px;
     }
+   
+
+    /*
+    .alert {
+    font-size: 11px;
+} */
+    .hero-text-box h1 {
+        font-size: 20px;
+}
+    .scrolling-text {
+    font-size: 12px;
+}
+    .maveli { padding-top: 20%;}
+    
+    
     
     /* disable landscape mode*/
    @media only screen and (orientation:landscape){
@@ -127,16 +148,25 @@
   #turn{ display:none; }
   #container{ display:block; }
 }
-
-
     
 }
+
 
 
 /* small phones from 0-480px*/
 @media only screen and (max-width: 480px) {
     section{padding: 25px 0;}
     .contact-form{width: 100%; }
+    
+
+/*
+.alert {
+    font-size: 10px;
+} */
+.scrolling-text {
+    font-size: 10px;
+    }
+    
     
     
     @media only screen and (orientation:landscape){
@@ -147,6 +177,5 @@
   #turn{ display:none; }
   #container{ display:block; }
 }
-
     
 }

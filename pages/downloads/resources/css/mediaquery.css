@@ -1,0 +1,62 @@
+/* big tablets to 1200px (width smaller than the grid.css row 1140px)*/
+@media only screen and (max-width: 1200px) {
+.main-box {
+    width: 90%;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+
+/* small to big tablets from 768-1023x*/
+@media only screen and (max-width: 1023px) {
+    
+    .main-box {
+    width: 60%;
+    }
+    
+footer img {
+    padding-left: 40%;
+    }
+    
+ .box1 h2 {
+     text-align: left;
+    padding-right: 200px;
+    
+
+}
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* small phones to small tablets from 481-767px*/
+@media only screen and (max-width: 767px) {
+    
+    .box1 h2 {
+    
+    text-align: left;
+    padding-right: 40px;
+}
+    footer img {
+    padding-left: 26%;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+

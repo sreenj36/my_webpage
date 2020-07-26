@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="avlps kannimel lp school under kerala government.situated in kollam district">
+<link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+
+<title>FACULTY</title>
+<style>
+    
+/* slide menu */
+    
+    .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+    
+    
+    
+    /* paragraph conf */
+#prelo {
+    text-align: center;
+    font-size: 40px;
+    top: 70%;
+    color: darkred;
+    }
+    
+/*gif conf*/
+
+#myImg {
+  width: 100%;
+  height: 100%;
+    
+  
+    }    
+    
+  
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  z-index: 1;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgba(0, 0, 255, 0.1);
+  border-right: 16px solid rgba(0, 128, 0, 0.1);
+  border-bottom: 16px solid rgba(255, 0, 0, 0.1);
+  border-left: 16px solid rgba(255, 192, 203, 0.1);
+  width: 140px;
+  height: 140px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: -75px 0 0 -75px;
+    
+
+}
+ 
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+    background-color: rgba(226, 255, 0, 0.16);
+}
+    
+    
+html {
+  box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+/*.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+    */
+</style>
+    
+     <img id="myImg" src="pages/faculty/resources/img/gif5.gif" />
+    <p id="prelo">TEACHERS</p>
+    
+</head>
+<body onload="myFunction()" style="margin:0;">
+    
+    <div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+    
+    
+    
+
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">HOME</a>
+    <a href="download.html">DOWNLOADS</a>
+    <a href="gallery.html" target="_blank">GALLERY</a>
+    <a href="notification.html" target="_blank">NOTIFICATION</a>
+  </div>
+</div>
+    
+    
+
+<h2>FACULTY</h2>
+<p>AVLPS KANNIMEL.</p>
+<p>CLASS I TO V & PRE PRIMARY</p>
+    <span style="font-size:35px;cursor:pointer;color: #f47c16;" onclick="openNav()">&#9776; <b>MENU</b></span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Jane" style="width:70%">
+      <div class="container">
+        <h2>സുനിൽകുമാർ</h2>
+        <p class="title">പ്രഥമാധ്യാപകൻ</p>
+       <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+       
+      </div>
+    </div>
+  </div>
+    </div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2> ജയശ്രീ കെ എസ്</h2>
+        <p class="title">അദ്ധാപിക</p>
+         <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2>സുഷമാ</h2>
+        <p class="title">അദ്ധാപിക</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2>ലതിക</h2>
+        <p class="title">അദ്ധാപിക</p>
+         <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+        
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2>വിഷ്ണു. വി എസ് </h2>
+        <p class="title">അധ്യാപകൻ</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+      
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="Mike" style="width:70%">
+      <div class="container">
+        <h2>ലക്ഷ്‌മി</h2>
+        <p class="title">അദ്ധാപിക</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+    
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="John" style="width:70%">
+      <div class="container">
+        <h2>ബീന</h2>
+        <p class="title">അദ്ധാപിക</p>
+         <!--<p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+     
+      </div>
+    </div>
+  </div>
+    </div>
+    
+    <div class="row">
+    <div class="column">
+    <div class="card">
+      <img src="faimages/apj1.jpg" alt="John" style="width:70%">
+      <div class="container">
+        <h2>ശ്രീകല</h2>
+        <p class="title">അദ്ധാപിക</p>
+        <!-- <p>Some text that describes me lorem ipsum ipsum lorem.</p> -->
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+    
+    <script>
+var myVar;
+/* hide circle */
+function myFunction() {
+  myVar = setTimeout(showPage, 5000);
+}
+    /* hide image */
+setTimeout(function() {
+  document.getElementById('myImg').style.display='none'
+}, 5000);
+    
+    /* hide paragraph */
+    
+    setTimeout(function() {
+  document.getElementById('prelo').style.display='none'
+}, 5000);
+    
+     
+    
+ 
+    
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<title>NOTIFICATIONS</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="avlps kannimel lp school under kerala government.situated in kollam district">
+ <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;700&display=swap" rel="stylesheet">
+    
+<style>
+        
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 50px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+    
+    h2,p {
+        text-align: center;
+    }    
+</style>
+</head>
+<body>
+
+<h2>അറിയിപ്പുകൾ</h2>
+
+<div class="alert">
+  <span class="closebtn">&times;</span>  
+    <p>അതാതു ക്ലാസ്സുകളിലെ പാഠപുസ്തകം രക്ഷകർത്താക്കൾ സ്കൂളിൽ നിന്നും എത്രയും വേഗം  കൈപ്പറ്റേണ്ടതാണു.</p>
+</div>
+
+<div class="alert warning">
+  <span class="closebtn">&times;</span>  
+    <p>കോവിഡ് 19 പ്രതിസന്ധി മൂലം വിദ്യാലയം താൽകാലികമായി പ്രവർത്തനരഹിതമാണൂ.</p>
+</div>
+    
+<!--
+<div class="alert success">
+  <span class="closebtn">&times;</span>  
+    <p><strong>Success!</strong> Indicates a successful or positive action.</p>
+</div>
+
+<div class="alert info">
+  <span class="closebtn">&times;</span>  
+    <p><strong>Info!</strong> Indicates a neutral informative change or action.</p>
+</div>
+
+<div class="alert warning">
+  <span class="closebtn">&times;</span>  
+    <p><strong>Warning!</strong> Indicates a warning that might need attention.</p>
+</div>
+    
+    <div class="alert warning">
+  <span class="closebtn">&times;</span>  
+        <p><strong>Warning!</strong> Indicates a warning that might need attention.</p>
+</div>
+-->
+
+<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
+
+</body>
+</html>
