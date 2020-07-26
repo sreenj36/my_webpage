@@ -1,0 +1,78 @@
+
+
+
+@media only screen and (orientation:portrait){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:landscape){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+
+
+/* big tablets to 1200px (width smaller than the grid.css row 1140px)*/
+@media only screen and (max-width: 1200px) {
+    
+    @media only screen and (orientation:landscape){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+
+}
+
+
+
+/* small to big tablets from 768-1023x*/
+@media only screen and (max-width: 1023px) {
+    
+    
+     /* disable landscape mode*/
+   @media only screen and (orientation:landscape){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+    
+}
+
+/* small phones to small tablets from 481-767px*/
+@media only screen and (max-width: 767px) {
+    
+    /* disable landscape mode*/
+   @media only screen and (orientation:landscape){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+    
+    
+}
+
+
+
+/* small phones from 0-480px*/
+@media only screen and (max-width: 480px) {
+     @media only screen and (orientation:landscape){
+  #turn{ display:block; }
+  #container{ display:none; }
+}
+@media only screen and (orientation:portrait){
+  #turn{ display:none; }
+  #container{ display:block; }
+}
+    
+}
+
+
+
