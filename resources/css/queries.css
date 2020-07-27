@@ -65,14 +65,14 @@
   #turn{ display:none; }
   #container{ display:block; }
 } */
-      .main-nav li a:link,
+     /* .main-nav li a:link,
     .main-nav li a:visited {
          display: block;
         border: 0;
         padding: 9px 0;
         font-size: 90%;
         line-height: 12px;
-    }
+    } */
     
 
 
