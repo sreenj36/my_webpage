@@ -16,6 +16,7 @@
 .scrolling-text {
     font-size: 30px;
     }
+
     
     @media only screen and (orientation:landscape){
   #turn{ display:block; }
@@ -135,7 +136,11 @@
     .scrolling-text {
     font-size: 12px;
 }
-    .maveli { padding-top: 20%;}
+    .maveli { 
+        padding-top: 30%;
+        width: 100%;
+        height: 100%;
+    }
     
     
     
