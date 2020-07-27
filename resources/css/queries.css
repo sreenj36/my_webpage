@@ -53,18 +53,18 @@
     
     .logo { margin-top: -5px; }
      .maveli { 
-        padding-top: 50%;
+        padding-top: 60%;
         width: 100%;
         height: 100%;
     }
-     /* @media only screen and (orientation:landscape){
+      @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
 }
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
-}*/
+}
       .main-nav li a:link,
     .main-nav li a:visited {
          display: block;
@@ -158,7 +158,7 @@
     font-size: 12px;
 }
     .maveli { 
-        padding-top: 50%;
+        padding-top: 60%;
         width: 100%;
         height: 100%;
     }
