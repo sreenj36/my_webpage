@@ -201,8 +201,12 @@
         height: 100%;
     }
     
-    .main-nav li {
-        padding: 0.5px;
+    .main-nav li a:link,
+    .main-nav li a:visited {
+         display: block;
+        border: 0;
+        padding: 9px 0;
+        font-size: 90%;
+        line-height: 5px;
     }
-    
 }
