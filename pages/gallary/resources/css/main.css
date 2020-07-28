@@ -1191,7 +1191,11 @@ ul.icons {
 				ul.icons li .icon:before {
 					font-size: 2em;
 				}
-
+				}
+footer img {
+    width: 50%;
+    #padding-bottom: 5%;
+}
 
 
 		
