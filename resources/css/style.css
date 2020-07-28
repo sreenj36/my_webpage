@@ -200,10 +200,10 @@ input[type=submit] {
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 14, 14, 0.75)), to(rgba(20, 19, 19, 0.75))), url(img/school/online-min.jpg);
     background-image: linear-gradient(rgba(16, 14, 14, 0.75), rgba(20, 19, 19, 0.75)), url(img/school/online-min.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: auto;
+    background-position: top;
     height: 100vh;
-    #background-attachment: fixed;
+    background-attachment: fixed;
     
 }
 
