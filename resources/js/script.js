@@ -46,13 +46,19 @@ $(document).ready(function() {
     });
    
     $('.js--wp-2').waypoint(function(direction) {
-        $('.js--wp-2').addClass('animated fadeInUp');
+        $('.js--wp-2').addClass('animated zoomIn');
     }, {
         offset: '50%'
     });
     
     $('.js--wp-3').waypoint(function(direction) {
         $('.js--wp-3').addClass('animated zoomInDown');
+    }, {
+        offset: '50%'
+    }); 
+    
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated rollIn');
     }, {
         offset: '50%'
     });
