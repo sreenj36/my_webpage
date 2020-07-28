@@ -31,7 +31,7 @@
 @media only screen and (max-width: 1023px) {
     
     
-     /* disable landscape mode
+     /* disable landscape mode */
    @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
@@ -39,7 +39,7 @@
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
-} */
+} 
     
 /* footer img {
     padding-left: 40%;
@@ -50,7 +50,7 @@
 /* small phones to small tablets from 481-767px*/
 @media only screen and (max-width: 767px) {
     
-    /* disable landscape mode*/
+    /* disable landscape mode
    @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
@@ -58,7 +58,8 @@
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
-}
+} */
+    
    /*  footer img {
     padding-left: 26%;
     }  */
