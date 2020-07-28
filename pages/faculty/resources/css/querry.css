@@ -13,7 +13,7 @@
 
 /* big tablets to 1200px (width smaller than the grid.css row 1140px)*/
 @media only screen and (max-width: 1200px) {
-   /* 
+   
     @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
@@ -21,7 +21,7 @@
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
-} */
+} 
 
 } 
 
@@ -31,7 +31,7 @@
 @media only screen and (max-width: 1023px) {
     
     
-     /* disable landscape mode*/
+     /* disable landscape mode
    @media only screen and (orientation:landscape){
   #turn{ display:block; }
   #container{ display:none; }
@@ -39,7 +39,8 @@
 @media only screen and (orientation:portrait){
   #turn{ display:none; }
   #container{ display:block; }
-}
+} */
+    
 /* footer img {
     padding-left: 40%;
     }  */
