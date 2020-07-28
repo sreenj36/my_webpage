@@ -69,7 +69,7 @@
 
 
 
-/* small phones from 0-480px
+/* small phones from 0-480px */
 @media only screen and (max-width: 480px) {
      @media only screen and (orientation:landscape){
   #turn{ display:block; }
@@ -80,7 +80,7 @@
   #container{ display:block; }
 }
     
-} */
+} 
 
 
 
