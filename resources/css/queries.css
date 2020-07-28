@@ -178,6 +178,12 @@
   #container{ display:block; }
 }
     
+    
+     header {
+         background-size: contain;
+    background-position: top;
+         }
+    
 }
 
 
@@ -226,4 +232,10 @@
         font-size: 90%;
         line-height: 5px;
     }
+    
+    header {
+         background-size: contain;
+    background-position: top;
+         }
+    
 }
