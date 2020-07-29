@@ -83,6 +83,24 @@
 .scrolling-text {
     font-size: 14px;
     }
+
+
+.holder {
+          margin-left: 5%;
+          padding:2px;
+          width: 600px;
+          height: 250px;
+
+
+    }
+    
+    
+    .holder .mask {
+         width:450px;
+         height:240px
+    }
+    
+
 }
 
 
@@ -189,6 +207,22 @@
     background-position: top;
          }
     
+    
+    .holder {
+         margin-left: 5%;
+         padding:2px;
+         width: 600px;
+         height: 250px;
+
+
+    }
+    
+    .holder .mask {
+         width:450px;
+         height:240px
+    }
+    
+    
 }
 
 
@@ -247,5 +281,19 @@
          background-size: contain;
     background-position: top;
          }
+    
+    .holder {
+         margin-left: 5%;
+         padding:2px;
+         width: 600px;
+         height: 250px;
+
+
+    }
+    
+    .holder .mask {
+         width:450px;
+         height:240px
+    }
     
 }
