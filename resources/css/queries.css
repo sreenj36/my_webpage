@@ -184,6 +184,11 @@
     background-position: top;
          }
     
+    .testimonials {
+         background-size: contain;
+    background-position: top;
+         }
+    
 }
 
 
@@ -234,6 +239,11 @@
     }
     
     header {
+         background-size: contain;
+    background-position: top;
+         }
+    
+    .testimonials {
          background-size: contain;
     background-position: top;
          }
