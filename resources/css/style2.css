@@ -21,19 +21,19 @@ background-color:rgba(240, 138, 19, 0.48);
 
 .holder { 
   background-color:rgba(240, 138, 19, 0.43);
-  width: 750px;
+  width: 850px;
   height: 350px;
   overflow:hidden;
   padding:10px;
   font-family:Helvetica; 
-    margin-left: 30%;
+    margin-left: 25%;
    
 }
 .holder .mask {
   position: relative;
   left: 0px;
   top: 10px;
-  width:600px;
+  width:700px;
   height:340px;
   overflow: hidden;
 }
